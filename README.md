@@ -21,7 +21,6 @@ _The agent successfully navigates the grid, picks up passengers (yellow), and dr
 - **Statistics Tracking**: Episode rewards and statistics monitoring
 - **Configurable Hyperparameters**: Easy-to-adjust learning parameters
 - **Comprehensive Logging**: Detailed training progress with Loguru
-- **Modular Design**: Clean, well-documented code structure
 
 ## 🏗️ Environment Details
 
@@ -39,7 +38,7 @@ The Taxi environment is a classic reinforcement learning problem with:
 ### Prerequisites
 
 - Python 3.11+
-- [UV](https://docs.astral.sh/uv/getting-started/installation/):
+- [UV](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Installation
 
@@ -115,12 +114,11 @@ The `QlearningConfig` class allows you to customize the learning algorithm:
 ```
 rl-drive-taxi/
 ├── train.py              # Main training script
-├── main.py               # Alternative implementation
 ├── README.md             # Project documentation
 ├── LICENSE               # License file
 ├── pyproject.toml        # Project configuration
-├── uv.lock              # Dependency lock file
-└── taxi-agent/          # Generated videos and outputs
+├── uv.lock               # Dependency lock file
+└── taxi-agent/           # Generated videos and outputs
     ├── eval-episode-0.mp4
     ├── eval-episode-250.mp4
     └── ...
